@@ -7,14 +7,14 @@
 </head>
 
 <body>
+    <div id='app'>
+        <input onkeypress="mostraAlerta()"/>
+    </div>
 
     <script>
-
-        var sexo = 'M';
-
-        // ternary condition
-        var retorno = (sexo === 'M') ? 'Masculino' : 'Feminino';
-        console.log(retorno);
+        function mostraAlerta() {
+            alert('Botão foi clicado');
+        }
 
     </script>
 </body>
