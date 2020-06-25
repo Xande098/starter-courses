@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Curso JavaScript</title>
+</head>
+
+<body>
+
+    <script>
+        // Exercício 05.
+
+        var usuarios = [
+            {
+                nome: "Diego",
+                habilidades: ["Javascript", "ReactJS", "Redux"]
+            },
+            {
+                nome: "Gabriel",
+                habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+            }
+        ];
+
+        function skills(array) {
+            for (var singular of array) {
+                console.log('O', singular.nome, 'possui as habilidades: ', singular.habilidades.join(', '));
+            }
+        }
+        skills(usuarios);
+
+    </script>
+</body>
+
+</html>
