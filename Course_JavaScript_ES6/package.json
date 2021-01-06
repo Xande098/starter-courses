@@ -21,6 +21,6 @@
     "deve1": "babel ./Concepts/01_Challenge/main.js -o ./Concepts/01_Challenge/bundle.js -w"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   }
 }
